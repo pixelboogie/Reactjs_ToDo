@@ -45,7 +45,7 @@ class App extends Component {
 
       return (
         <div className="App">
-  
+          <Header />
         <Todos todos={this.state.todos} 
         markComplete={this.markComplete}
         delTodo={this.delTodo}
