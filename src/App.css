@@ -19,3 +19,16 @@ a {
   margin: 1em;
   padding: 10px;
 }
+
+.container{
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: rgb(71, 78, 91);
+  color: white;
+  padding: 7px 20px;
+  cursor: pointer;
+}
