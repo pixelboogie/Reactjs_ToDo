@@ -14,17 +14,42 @@ class App extends Component {
       {
         // id: uuid.v4(),
         id: 1,
-        title: 'Build for portfolio',
+        title: 'Satisfy the Customer',
         completed: false
       },
       {
         id: 2,
-        title: 'Apply to jobs',
+        title: 'Welcome Change',
         completed: false
       },
       {
         id: 3,
-        title: 'Go to interviews',
+        title: 'Deliver Frequently',
+        completed: false
+      },
+      {
+        id: 3,
+        title: 'Work Together',
+        completed: false
+      },
+      {
+        id: 4,
+        title: 'Build Projects',
+        completed: false
+      },
+      {
+        id: 5,
+        title: 'Face-To-Face Time',
+        completed: false
+      },
+      {
+        id: 6,
+        title: 'Measure of Progress',
+        completed: false
+      },
+      {
+        id: 7,
+        title: 'Sustainable Development',
         completed: false
       },
     ]
@@ -48,7 +73,7 @@ class App extends Component {
   addTodo = (title) => {
     // console.log(title)
     const newTodo = {
-      id: 4,
+      id: 8,
       title: title,
       completed: false
     }

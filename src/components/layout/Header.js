@@ -12,14 +12,14 @@ function Header(){
 }
 
 const headerStyle = {
-    background: '#333',
-    color: '#FF0000',
+    background: '#c4c4c4',
+    color: 'blue',
     textAlign: 'center',
     padding: '20px'
   }
 
   const linkStyle = {
-      color: '#fff',
+      color: 'blue',
       textDecoration: 'none'
   }
 
