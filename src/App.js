@@ -8,47 +8,49 @@ import uuid from 'uuid'
 
 import './App.css';
 
+
 class App extends Component {
   state = {
     todos: [
       {
-        // id: uuid.v4(),
-        id: 1,
+        id: uuid.v4(),
+        // id: 1,
         title: 'Satisfy the Customer',
         completed: false
       },
       {
-        id: 2,
+        id: uuid.v4(),
+        // id: 2,
         title: 'Welcome Change',
         completed: false
       },
       {
-        id: 3,
+        id: uuid.v4(),
         title: 'Deliver Frequently',
         completed: false
       },
       {
-        id: 3,
+        id: uuid.v4(),
         title: 'Work Together',
         completed: false
       },
       {
-        id: 4,
+        id: uuid.v4(),
         title: 'Build Projects',
         completed: false
       },
       {
-        id: 5,
+        id: uuid.v4(),
         title: 'Face-To-Face Time',
         completed: false
       },
       {
-        id: 6,
+        id: uuid.v4(),
         title: 'Measure of Progress',
         completed: false
       },
       {
-        id: 7,
+        id: uuid.v4(),
         title: 'Sustainable Development',
         completed: false
       },
@@ -73,7 +75,8 @@ class App extends Component {
   addTodo = (title) => {
     // console.log(title)
     const newTodo = {
-      id: 8,
+      // id: 8,
+      id: uuid.v4(),
       title: title,
       completed: false
     }
@@ -86,7 +89,7 @@ class App extends Component {
           <div className="App">
             <div className="container">
               <Header />
-              <Route exact path="/" render={props => (
+              <Route exact path="/build" render={props => (   // added build
                 <React.Fragment>
                   <AddTodo addTodo={this.addTodo} />
                   <Todos todos={this.state.todos} 
