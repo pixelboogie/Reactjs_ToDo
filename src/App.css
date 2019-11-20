@@ -5,30 +5,39 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Lato, Helvetica;
   line-height: 1.4;
+  Background-color: #222;
 }
 
 a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
-.uno{
-  background-color: coral;
-  margin: 1em;
-  padding: 10px;
-}
 
 .container{
-  padding: 0 1rem;
+    min-width: 400px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    border: solid;
+    border-color: #444;  
+    border-width: 4px;
 }
 
 .btn {
   display: inline-block;
   border: none;
-  background: rgb(71, 78, 91);
-  color: white;
+  background: #00bc8c;
+  color:white;
   padding: 7px 20px;
   cursor: pointer;
+  font-size: 14px;
+}
+
+.about{
+  background: #375a7f;
+  color: #e6e4e4;
+  padding: 10px;
 }

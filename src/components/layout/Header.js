@@ -13,15 +13,16 @@ function Header(){
 }
 
 const headerStyle = {
-    background: '#c4c4c4',
-    color: 'blue',
+    background: '#375a7f',
+    color: 'white',
     textAlign: 'center',
-    padding: '20px'
+    padding: '20px',
+    fontFamily: 'Lato, Verdana, Helvetica Neue'
   }
 
   const linkStyle = {
-      color: 'blue',
-      textDecoration: 'none'
+    color: 'white',
+    textDecoration: 'none'
   }
 
 export default Header;
